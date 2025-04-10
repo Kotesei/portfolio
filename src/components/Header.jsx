@@ -40,11 +40,20 @@ export default function Header() {
               <h1 className="mb-3 text-5xl text-center font-extrabold">
                 Welcome to my portfolio!
               </h1>
-              <h2 className="text-2xl text-center max-w-125">
-                My name is Geraldo, and I am currently learning everything
-                related to Full Stack Web Development! Down below you will see
-                what projects I have done so far.
-              </h2>
+              <div className="flex items-center overflow-hidden border-2 border-white rounded-xl">
+                <h2 className="text-xs p-2 text-center max-w-125">
+                  My name is Geraldo, and I am currently learning everything
+                  related to Full Stack Web Development! Down below you will see
+                  what projects I have done so far.
+                </h2>
+                <div>
+                  <img
+                    src={img}
+                    alt="profile picture of G.B"
+                    className="w-120"
+                  />
+                </div>
+              </div>
             </div>
             <div className="flex items-center gap-2 px-4 py-1 bg-[#31312f] w-fit rounded-full">
               <div className="rounded-full bg-emerald-400 h-2.5 w-2.5"></div>
@@ -69,11 +78,6 @@ export default function Header() {
               className="invert brightness-150 self-center absolute bottom-[50px] left-[44%]"
             />
           </div>
-          <img
-            src={img}
-            className="h-auto object-cover w-105"
-            alt="profile picture of G.B"
-          />
         </header>
       </div>
       <div className="flex flex-col items-center gap-5 py-10 bg-[#31312f]">

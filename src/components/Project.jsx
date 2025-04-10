@@ -11,10 +11,10 @@ export default function Project() {
         sequi reiciendis. Culpa, saepe.
       </p>
       <div className="flex gap-5 justify-center">
-        <button className="bg-[#31312f] px-3 py-2 rounded cursor-pointer outline-2 outline-transparent hover:outline-white transition-all duration-500 ease-in-out">
+        <button className="bg-[#31312f] px-3 py-2 rounded cursor-pointer outline-2 outline-transparent active:outline-white hover:outline-white transition-all duration-500 ease-in-out">
           Source Code
         </button>
-        <button className="px-3 py-2 rounded cursor-pointer outline-2 outline-transparent hover:outline-white transition-all duration-500 ease-in-out">
+        <button className="px-3 py-2 rounded cursor-pointer outline-2 outline-transparent hover:outline-white active:outline-white transition-all duration-500 ease-in-out">
           Use Cases
         </button>
       </div>
